@@ -1,0 +1,5 @@
+create table product(id int,name varchar(20),price int,quantity int)
+insert into product values(111,'keyboard',2000,1)
+insert into product values(121,'mouse',3000,1)
+insert into product values(131,'CPU',4000,1)
+select * from product
